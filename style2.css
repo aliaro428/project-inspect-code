@@ -1,0 +1,11 @@
+.topbar1{display: block;}
+.barphone{display: none}
+#cat-slide{display:none ;}
+.list-group-item{background-color:#fff;}
+a.list-group-item{color:#333;}
+#cat-slide{z-index:100;width:200px;display:block;position:fixed;left:-300px;top:32px;}
+@media (max-width:767px)
+{.topbar1{display: none;}
+.barphone{display: block;}
+
+}
